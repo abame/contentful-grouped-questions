@@ -3,7 +3,6 @@ import {
     Button,
     EditorToolbarButton,
     TextField,
-    Textarea,
 } from '@contentful/forma-36-react-components';
 import tokens from '@contentful/forma-36-tokens';
 import { FieldExtensionSDK } from '@contentful/app-sdk';
@@ -15,11 +14,23 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
+
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
 
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+
 interface FieldProps {
     sdk: FieldExtensionSDK;
+}
+
+interface CKEditorEvent {
+    name: string
+}
+
+interface CKEditorData {
+    getData(): string
 }
 
 /** An Item which represents an list item of the Grouped Q&A app */
@@ -27,7 +38,7 @@ interface Item {
     id: string;
     question: string;
     group: string;
-    anwser: string;
+    answer: string;
 }
 
 /** A simple utility function to create a 'blank' item
@@ -38,7 +49,7 @@ function createItem(): Item {
         id: uuid(),
         question: '',
         group: '',
-        anwser: '',
+        answer: '',
     };
 }
 
@@ -67,24 +78,17 @@ const Field = (props: FieldProps) => {
         props.sdk.field.setValue([...items, createItem()]);
     };
 
-    /** Creates an `onChange` handler for an item based on its `property`
-     * @returns A function which takes an `onChange` event 
-    */
-    const createOnChangeHandler = (item: Item, property: 'question' | 'anwser' | 'group') => (
-        e: React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLTextAreaElement>
-    ) => {
-        const itemList = items.concat();
-        const index = itemList.findIndex((i) => i.id === item.id);
-
-        itemList.splice(index, 1, { ...item, [property]: e.target.value });
-
-        props.sdk.field.setValue(itemList);
-    };
-
     /** Deletes an item from the list */
     const deleteItem = (item: Item) => {
         props.sdk.field.setValue(items.filter((i) => i.id !== item.id));
     };
+
+    const onChangeHandler = (item: Item, property: 'question' | 'answer' | 'group', data: string ) => {
+        const itemList = items.concat();
+        const index = itemList.findIndex((i) => i.id === item.id);
+        itemList.splice(index, 1, { ...item, [property]: data });
+        props.sdk.field.setValue(itemList);
+    }
 
     return (
         <Accordion>
@@ -92,7 +96,7 @@ const Field = (props: FieldProps) => {
                 <AccordionItem key={item.id}>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            {item.group} - {item.question}
+                            {item.group} - {truncate(item.question.replace(/(<([^>]+)>)/gi, ""), 65)}
                             <EditorToolbarButton
                                 label="delete"
                                 icon="Delete"
@@ -109,30 +113,32 @@ const Field = (props: FieldProps) => {
                                 labelText="Question Group"
                                 value={item.group}
                                 className="questionGroup"
-                                onChange={createOnChangeHandler(item, 'group')}
+                                onChange={ (e: React.ChangeEvent<HTMLInputElement>) => {
+                                    onChangeHandler(item, 'group', e.target.value)
+                                }}
                             />
                             <label className='textareaLabel'>
-                                Question: 
-                            <Textarea
-                                id="question"
-                                name="question"
-                                placeholder="Question"
-                                value={item.question}
-                                rows={10}
-                                onChange={createOnChangeHandler(item, "question")}
+                                Question:
+                            </label>
+                            <CKEditor
+                                key="question"
+                                editor={ ClassicEditor }
+                                data={item.question}
+                                onChange={ ( event: CKEditorEvent, editor: CKEditorData ) => {
+                                    onChangeHandler(item, 'question', editor.getData())
+                                } }
                             />
-                            </label>
                             <label className='textareaLabel'>
-                                Answer: 
-                                <Textarea
-                                    id="anwser"
-                                    name="anwser"
-                                    placeholder="Answer"
-                                    value={item.anwser}
-                                    rows={10}
-                                    onChange={createOnChangeHandler(item, "anwser")}
-                                />
+                                Answer:
                             </label>
+                            <CKEditor
+                                key="answer"
+                                editor={ ClassicEditor }
+                                data={item.answer}
+                                onChange={ ( event: CKEditorEvent, editor: CKEditorData ) => {
+                                    onChangeHandler(item, 'answer', editor.getData())
+                                } }
+                            />
                         </div>
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -148,5 +154,9 @@ const Field = (props: FieldProps) => {
         </Accordion>
     );
 };
+
+function truncate(source: string, size: number) {
+    return source.length > size ? source.slice(0, size - 1) + "…" : source;
+}
 
 export default Field;

@@ -35,3 +35,7 @@ label textarea {
   width: 95% !important;
   position: relative;
 }
+
+.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline.ck-blurred {
+  min-height: 400px;
+}
