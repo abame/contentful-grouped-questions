@@ -23,12 +23,12 @@ An example item in the Contentful response:
 ```json
 {
     "fields": {
-        "questionsAnswers": [
+        "questions": [
             {
                 "id": "fisgh9s8e-sdfhap832",
-                "question": "Demo Question",
+                "question": "<h1>Demo Question</h1>",
                 "group": "Demo Title",
-                "answer": "Demo Answer"
+                "answer": "<h1>Demo Answer</h1>"
             }
         ]
     }
