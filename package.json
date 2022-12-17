@@ -17,7 +17,7 @@
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "uuid": "^8.3.2"
+    "uuid": "^9.0.0"
   },
   "scripts": {
     "start": "cross-env BROWSER=none react-scripts start",
