@@ -19,7 +19,7 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 
 import { CKEditor } from '@ckeditor/ckeditor5-react';
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import ClassicEditor from 'ckeditor5-build-classic-dna';
 
 interface FieldProps {
     sdk: FieldExtensionSDK;
@@ -52,6 +52,35 @@ function createItem(): Item {
         answer: '',
     };
 }
+
+const toolbarConfig = {
+    toolbar: {
+        items: [
+            "heading",
+            "|",
+            "bold",
+            "italic",
+            "link",
+            "bulletedList",
+            "numberedList",
+            "|",
+            "indent",
+            "outdent",
+            "|",
+            "codeBlock",
+            "blockQuote",
+            "mediaEmbed",
+            "insertImageFromUnsplash",
+            "undo",
+            "redo",
+            "|",
+            "insertTable",
+            "tableColumn",
+            "tableRow",
+            "mergeTableCells"
+          ]
+    }
+};
 
 /** The Field component is the Grouped Q&A App which shows up 
  * in the Contentful field.
@@ -123,6 +152,7 @@ const Field = (props: FieldProps) => {
                             <CKEditor
                                 key="question"
                                 editor={ ClassicEditor }
+                                config={toolbarConfig}
                                 data={item.question}
                                 onChange={ ( event: CKEditorEvent, editor: CKEditorData ) => {
                                     onChangeHandler(item, 'question', editor.getData())
@@ -134,6 +164,7 @@ const Field = (props: FieldProps) => {
                             <CKEditor
                                 key="answer"
                                 editor={ ClassicEditor }
+                                config={toolbarConfig}
                                 data={item.answer}
                                 onChange={ ( event: CKEditorEvent, editor: CKEditorData ) => {
                                     onChangeHandler(item, 'answer', editor.getData())
