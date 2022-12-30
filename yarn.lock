@@ -1079,10 +1079,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@ckeditor/ckeditor5-react@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-react/-/ckeditor5-react-5.0.3.tgz#06446d63923147a56a5f2c531df409384cf2ee90"
-  integrity sha512-uUVz8HOe7M1h/TnEjaM9F77Gqyn5SrTwzy8p1KwtKSccUPbNtKY96aPkO/ZiG3kCDJtp7Vi26XJThaoaiLZdjQ==
+"@ckeditor/ckeditor5-react@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-react/-/ckeditor5-react-5.0.5.tgz#45004fab81674230ad3d35a2ca2182b1314bbb96"
+  integrity sha512-s/1WrQPQzoFjIphL6j0hpI0bYfLe9C0UhADLaD8YvVsgUhRuWobdelNODVUx/jFBcCsYvR36909B7M2+Sbnfdg==
   dependencies:
     prop-types "^15.7.2"
 
@@ -1103,10 +1103,10 @@
     open "8.4.0"
     ora "5.4.1"
 
-"@contentful/app-sdk@^4.13.0":
-  version "4.13.0"
-  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.13.0.tgz#ae97e811b407c71ed4fa76974309bbaab428466a"
-  integrity sha512-jHQmks72qaW4Ge1k1Nk+3zVgCpfZYCJj0XqKfiHwAvXMBgqygOPYj717c3WsgAvwXm/CeTWVpRXg83ILI570LA==
+"@contentful/app-sdk@^4.14.0":
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.14.0.tgz#25a646879ae05a4e214c44cce37f324bd8eaee97"
+  integrity sha512-Cp5DNlnKFVMrouzHOmxunbxxvpqoFfwByD6Hs78ghB29HDlo3c+sX1J6uxYccvTxcE0d1ficYM0+9k6qMttyTw==
 
 "@contentful/f36-accordion@^4.23.3":
   version "4.23.3"
@@ -2765,10 +2765,10 @@
   dependencies:
     "@types/react" "^16"
 
-"@types/react-dom@^18.0.0", "@types/react-dom@^18.0.9":
-  version "18.0.9"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.9.tgz#ffee5e4bfc2a2f8774b15496474f8e7fe8d0b504"
-  integrity sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==
+"@types/react-dom@^18.0.0", "@types/react-dom@^18.0.10":
+  version "18.0.10"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.10.tgz#3b66dec56aa0f16a6cc26da9e9ca96c35c0b4352"
+  integrity sha512-E42GW/JA4Qv15wQdqJq8DL4JhNpB3prJgjgapN3qJT9K2zO5IIAQh4VXvCEDupoqAwnz0cY4RlXeC/ajX5SFHg==
   dependencies:
     "@types/react" "*"
 
