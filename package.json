@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ckeditor/ckeditor5-react": "^5.0.5",
+    "@ckeditor/ckeditor5-react": "^5.0.6",
     "@contentful/app-scripts": "^1.6.0",
     "@contentful/app-sdk": "^4.14.1",
     "@contentful/field-editor-single-line": "^1.1.7",
@@ -18,7 +18,8 @@
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "json5": "^2.2.3"
   },
   "scripts": {
     "start": "cross-env BROWSER=none react-scripts start",
