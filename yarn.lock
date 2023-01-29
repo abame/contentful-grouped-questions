@@ -1086,17 +1086,17 @@
   dependencies:
     prop-types "^15.7.2"
 
-"@contentful/app-scripts@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.7.0.tgz#105e8bf13dfe5f418acf452191f97939fff8492b"
-  integrity sha512-5yek5PEKAa09D9mDzjYUJHmBQj8N2942GuSQ0MgI2tOuyF5B+XxBX8yLhjrlLPjfmxji0C03jjwRJd5Duy9LlQ==
+"@contentful/app-scripts@^1.7.3":
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.7.3.tgz#13787b9afe00689182897ff0f5d30afdd79271f7"
+  integrity sha512-P2oOE+vqqGiWV71/dWJIVme0XMPAqVo0hG4HHG5zKfAj5Xry7q5B2WJz3jeMVKHbslvcACdHAlhhRXa6N/9AEw==
   dependencies:
     adm-zip "0.5.9"
     analytics-node "^6.2.0"
     bottleneck "2.19.5"
     chalk "4.1.2"
     commander "9.5.0"
-    contentful-management "10.26.0"
+    contentful-management "10.27.2"
     dotenv "16.0.3"
     ignore "5.2.4"
     inquirer "8.2.5"
@@ -4146,10 +4146,10 @@ content-type@~1.0.4:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
 
-contentful-management@10.26.0:
-  version "10.26.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.26.0.tgz#55fc33ddc730b32e449660ecf3a1e37ee4d0c037"
-  integrity sha512-7POoSUwqv1vto4Ud0y878lMiuJYH/mfulLzN/EMAyEv92QesGPatVR9jhBDvCTpPSXEa86oVRA+phw+hz7Ih1w==
+contentful-management@10.27.2:
+  version "10.27.2"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.27.2.tgz#87a8b51c33fb04e9d80613240ef16aaef894654b"
+  integrity sha512-vp3PT6HHmt4P+Fx3mpDfuM8JksiCEx11x56M0XedMRQr238rJ5M2Vw+wfAEpWyOEdtAmkWyfVvXXvkFRDEdjZw==
   dependencies:
     "@types/json-patch" "0.0.30"
     axios "^0.27.1"
