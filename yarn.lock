@@ -1086,22 +1086,22 @@
   dependencies:
     prop-types "^15.7.2"
 
-"@contentful/app-scripts@^1.7.6":
-  version "1.7.6"
-  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.7.6.tgz#7b9f2ef3c6e75f485026b09b3311ac24d8d35b5d"
-  integrity sha512-BAozCH6R52eGzS3m/wzvQoJ74C/ffTkyqS/rLESVjGjaKStDgzpeCtHL9Nbtnz+w5PUQnjJZe3+aOaokC9Se8w==
+"@contentful/app-scripts@^1.7.9":
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.7.9.tgz#c6e0cfebc15d607b799be7ab85c6f9811ccfa860"
+  integrity sha512-hb9KfyLRxYw7zyzF9b34bSA2rWxixdK2OtKaNgnmV0FNoAQP/6HonIvMTV9Aw4lVUXgj86uIBk1N5IUrdzlKYA==
   dependencies:
     adm-zip "0.5.10"
     analytics-node "^6.2.0"
     bottleneck "2.19.5"
     chalk "4.1.2"
     commander "10.0.0"
-    contentful-management "10.27.4"
+    contentful-management "10.29.1"
     dotenv "16.0.3"
     ignore "5.2.4"
     inquirer "8.2.5"
     lodash "4.17.21"
-    open "8.4.0"
+    open "8.4.1"
     ora "5.4.1"
 
 "@contentful/app-sdk@^4.14.1":
@@ -4146,10 +4146,10 @@ content-type@~1.0.4:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
 
-contentful-management@10.27.4:
-  version "10.27.4"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.27.4.tgz#4414bd3dde0db91db85e3df6819829a687f68247"
-  integrity sha512-rHM2gedxHbvlAn1RXMGQm47uY33uxxjZADE+MGUseiVaPTEt9+EpoPyVKLTJc+eD8dH8x454oAYKjtK9xM11Ng==
+contentful-management@10.29.1:
+  version "10.29.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.29.1.tgz#6afce7c674f4d3211acc7ae1ef4ccab367ba857a"
+  integrity sha512-lP929UAf/0fK7ZTjVXrj0O/b7+MtW490Vj8lAb0HGhKKNwS1VhG9q71sKyx/OvsHIYXqVy4zAlKOf2TfchMdiA==
   dependencies:
     "@types/json-patch" "0.0.30"
     axios "^0.27.1"
@@ -7699,10 +7699,10 @@ onetime@^5.1.0, onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-open@8.4.0, open@^8.0.9, open@^8.4.0:
-  version "8.4.0"
-  resolved "https://registry.yarnpkg.com/open/-/open-8.4.0.tgz#345321ae18f8138f82565a910fdc6b39e8c244f8"
-  integrity sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==
+open@8.4.1, open@^8.0.9, open@^8.4.0:
+  version "8.4.1"
+  resolved "https://registry.yarnpkg.com/open/-/open-8.4.1.tgz#2ab3754c07f5d1f99a7a8d6a82737c95e3101cff"
+  integrity sha512-/4b7qZNhv6Uhd7jjnREh1NjnPxlTq+XNWPG88Ydkj5AILcA5m3ajvcg57pB24EQjKv0dK62XnDqk9c/hkIG5Kg==
   dependencies:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
