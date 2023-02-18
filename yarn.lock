@@ -1086,22 +1086,22 @@
   dependencies:
     prop-types "^15.7.2"
 
-"@contentful/app-scripts@^1.7.6":
-  version "1.7.6"
-  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.7.6.tgz#7b9f2ef3c6e75f485026b09b3311ac24d8d35b5d"
-  integrity sha512-BAozCH6R52eGzS3m/wzvQoJ74C/ffTkyqS/rLESVjGjaKStDgzpeCtHL9Nbtnz+w5PUQnjJZe3+aOaokC9Se8w==
+"@contentful/app-scripts@^1.7.9":
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.7.9.tgz#c6e0cfebc15d607b799be7ab85c6f9811ccfa860"
+  integrity sha512-hb9KfyLRxYw7zyzF9b34bSA2rWxixdK2OtKaNgnmV0FNoAQP/6HonIvMTV9Aw4lVUXgj86uIBk1N5IUrdzlKYA==
   dependencies:
     adm-zip "0.5.10"
     analytics-node "^6.2.0"
     bottleneck "2.19.5"
     chalk "4.1.2"
     commander "10.0.0"
-    contentful-management "10.27.4"
+    contentful-management "10.29.1"
     dotenv "16.0.3"
     ignore "5.2.4"
     inquirer "8.2.5"
     lodash "4.17.21"
-    open "8.4.0"
+    open "8.4.1"
     ora "5.4.1"
 
 "@contentful/app-sdk@^4.16.0":
@@ -1528,10 +1528,10 @@
   dependencies:
     emotion "^10.0.17"
 
-"@contentful/field-editor-shared@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.1.4.tgz#21c6bd43d0d223c910ad27df94632583ca43d940"
-  integrity sha512-1JApw1Ll2gSJkCAdgv5pxemsfl9sTRm9J/Y+Xvanm/SIstKc5XwTyCMY7ybwoinFvzKRTvEJHq6qc9bhN5EDlw==
+"@contentful/field-editor-shared@^1.1.4", "@contentful/field-editor-shared@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.1.5.tgz#f8d83a778926e47ae06355a944e44d8dda139463"
+  integrity sha512-q6hTNkbCBRgE9kOS67HELoAwhRHKxXYJf8JoMpQlOMOdiJ76/TlhjYlUde5heBcKjuLPGC9f67U9YfB23Pw4MA==
   dependencies:
     "@contentful/f36-note" "^4.2.8"
     "@contentful/f36-tokens" "^4.0.0"
@@ -1551,13 +1551,13 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-test-utils@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.2.3.tgz#82368ca2ba3032e31a33e3035b965273b884e477"
-  integrity sha512-qFxaHWM5ngcx9HAtCE0QlqrsGbcovkblhTuoiP0zU2L6EYjO5xklz31aUAgUL17rxGWam6C407GAEY60U45uYg==
+"@contentful/field-editor-test-utils@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.2.4.tgz#d1b00d5e3d45176e27be1ac8b8bfc8c8d85c22dd"
+  integrity sha512-91+CQGpZZ/xJh5TJfv9PHI0G+MfwR0DKM26UX9fNhYAqKlkmrvwCtW3eCKMH0GApCGSmFlrotQ+kP5B2iuo7aw==
   dependencies:
     "@contentful/f36-tokens" "^4.0.0"
-    "@contentful/field-editor-shared" "^1.1.4"
+    "@contentful/field-editor-shared" "^1.1.5"
     emotion "^10.0.17"
     lodash "^4.17.15"
     lodash-es "^4.17.15"
@@ -2788,10 +2788,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.0.27":
-  version "18.0.27"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.27.tgz#d9425abe187a00f8a5ec182b010d4fd9da703b71"
-  integrity sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==
+"@types/react@*", "@types/react@^18.0.28":
+  version "18.0.28"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.28.tgz#accaeb8b86f4908057ad629a26635fe641480065"
+  integrity sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -4146,10 +4146,10 @@ content-type@~1.0.4:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
 
-contentful-management@10.27.4:
-  version "10.27.4"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.27.4.tgz#4414bd3dde0db91db85e3df6819829a687f68247"
-  integrity sha512-rHM2gedxHbvlAn1RXMGQm47uY33uxxjZADE+MGUseiVaPTEt9+EpoPyVKLTJc+eD8dH8x454oAYKjtK9xM11Ng==
+contentful-management@10.29.1:
+  version "10.29.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.29.1.tgz#6afce7c674f4d3211acc7ae1ef4ccab367ba857a"
+  integrity sha512-lP929UAf/0fK7ZTjVXrj0O/b7+MtW490Vj8lAb0HGhKKNwS1VhG9q71sKyx/OvsHIYXqVy4zAlKOf2TfchMdiA==
   dependencies:
     "@types/json-patch" "0.0.30"
     axios "^0.27.1"
@@ -7699,10 +7699,10 @@ onetime@^5.1.0, onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-open@8.4.0, open@^8.0.9, open@^8.4.0:
-  version "8.4.0"
-  resolved "https://registry.yarnpkg.com/open/-/open-8.4.0.tgz#345321ae18f8138f82565a910fdc6b39e8c244f8"
-  integrity sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==
+open@8.4.1, open@^8.0.9, open@^8.4.0:
+  version "8.4.1"
+  resolved "https://registry.yarnpkg.com/open/-/open-8.4.1.tgz#2ab3754c07f5d1f99a7a8d6a82737c95e3101cff"
+  integrity sha512-/4b7qZNhv6Uhd7jjnREh1NjnPxlTq+XNWPG88Ydkj5AILcA5m3ajvcg57pB24EQjKv0dK62XnDqk9c/hkIG5Kg==
   dependencies:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
