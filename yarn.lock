@@ -1104,10 +1104,10 @@
     open "8.4.1"
     ora "5.4.1"
 
-"@contentful/app-sdk@^4.14.1":
-  version "4.14.1"
-  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.14.1.tgz#e89504e52f625a5dba306de45569ec9301a7f5b2"
-  integrity sha512-ugAbeOg75+nT6/xTkSgwRpMbVwZmipgUh5Yx0gzidYaJNdxC3Kk6piUrGqIoAx4RFW/sbu6M5+vi1Lyw4krMJw==
+"@contentful/app-sdk@^4.16.0":
+  version "4.16.0"
+  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.16.0.tgz#1810f2d5589e813c1ec81c653af5b7c0f806d981"
+  integrity sha512-LxPu2vk27bX28OqFj/PIoKYgSXPqPU0h2Zf+FwuzV16++DK8WM/guzIuN1qaOSEf5S98K2bCJAMqL3hpmnY+bQ==
 
 "@contentful/f36-accordion@^4.23.3":
   version "4.23.3"
