@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ckeditor/ckeditor5-react": "^5.0.6",
+    "@ckeditor/ckeditor5-react": "^5.1.0",
     "@contentful/app-scripts": "^1.7.10",
     "@contentful/app-sdk": "^4.16.0",
     "@contentful/field-editor-single-line": "^1.1.9",
