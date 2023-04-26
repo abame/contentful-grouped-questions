@@ -1086,17 +1086,17 @@
   dependencies:
     prop-types "^15.7.2"
 
-"@contentful/app-scripts@^1.7.13":
-  version "1.7.13"
-  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.7.13.tgz#d71f7a8eca975f2dfaa72977ba66b30abe857062"
-  integrity sha512-SrCs6UVks6EICySSAP5ETKRcrpgKWrpI5VRn2bSqOPgtcvV5PnjA3rfa1gzWYHMXZJXYdtioBehOFaEthm3ipA==
+"@contentful/app-scripts@^1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.8.1.tgz#93d54d38c9341c3688eb6380908715bebce476c8"
+  integrity sha512-tGx91Esz0y0qwS5owce6fp44FjRmYBsTsmSfwxq0zVacnBxwzKusM/qEWCuML1nB8qjW6AQLrG9Hrpq8eKA1sw==
   dependencies:
     adm-zip "0.5.10"
     analytics-node "^6.2.0"
     bottleneck "2.19.5"
     chalk "4.1.2"
     commander "10.0.0"
-    contentful-management "10.30.0"
+    contentful-management "10.32.0"
     dotenv "16.0.3"
     ignore "5.2.4"
     inquirer "8.2.5"
@@ -1593,6 +1593,11 @@
   version "0.11.2"
   resolved "https://registry.yarnpkg.com/@contentful/forma-36-tokens/-/forma-36-tokens-0.11.2.tgz#838663a93eae7d49caace8ae5ff2d0c27868e5c0"
   integrity sha512-qjhKZahSQWQl6spebKycVTZF7Cnf4DBPh6QMoyM6YFmtbFlNfVpz8eKaO/C0hiVaBCjeN7wX/Jl6fdG+IovCgw==
+
+"@contentful/rich-text-types@^16.0.3":
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.0.3.tgz#c590268483e07881fb01b6799e837337093e42bf"
+  integrity sha512-BsUtXj93jo5XUt0YeUwfCkMWRoZIzJDPUIY4vMy9SwGIO9olTsMoQKadjA2ktlmK+Gg6710WH3eFKZxj2q39Iw==
 
 "@csstools/normalize.css@*":
   version "12.0.0"
@@ -4146,11 +4151,12 @@ content-type@~1.0.4:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
 
-contentful-management@10.30.0:
-  version "10.30.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.30.0.tgz#48edbe726155ed257ab2fc67d8499f7c3b95fc33"
-  integrity sha512-CYeZqezYP7q++EuHgCHKakemsJqCHC784uOWyYp00Rc6+iMw5glK8GjwksbgUsbnZFfCywGyZCj4Xsd4lZ0ZaQ==
+contentful-management@10.32.0:
+  version "10.32.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.32.0.tgz#46a53b16d1098a68d7bf726502ad7d19b673ebd1"
+  integrity sha512-vkvOs+7bFQ1Lbj0lcBqc8Fkn/p0VhGKfrRnDTGbouJoyJqB2ribIJ7J8i7/95+dsIewW8inXkwffUJxCChAwgw==
   dependencies:
+    "@contentful/rich-text-types" "^16.0.3"
     "@types/json-patch" "0.0.30"
     axios "^0.27.1"
     contentful-sdk-core "^7.0.1"
