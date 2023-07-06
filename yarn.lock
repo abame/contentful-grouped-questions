@@ -1104,10 +1104,12 @@
     open "8.4.2"
     ora "5.4.1"
 
-"@contentful/app-sdk@^4.17.1":
-  version "4.17.1"
-  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.17.1.tgz#d8d0c195012c40070da0554f9c928a9f5c10a7ac"
-  integrity sha512-8vh/X+kW33412lxwi2Acr6V4W7UxNvH273cJUSJ43OaFlwAl+T4aWhIULXq+sT9ASc9QxsujiWFHbCR38kl/oQ==
+"@contentful/app-sdk@^4.22.0":
+  version "4.22.0"
+  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.22.0.tgz#edd9e78fa1a9e6bf73ee54ef81a48b768f2d740e"
+  integrity sha512-ljXNwqdCA1GCsD32SKGcUpLnuQAmAHSyW9ebHw185UBwNgqM02n20tODWftUYH94TlPiQnQmqDSDFX7TGRYW2g==
+  dependencies:
+    contentful-management ">=7.30.0"
 
 "@contentful/f36-accordion@^4.23.3":
   version "4.23.3"
@@ -4154,6 +4156,19 @@ contentful-management@10.35.4:
   version "10.35.4"
   resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.35.4.tgz#519eeb9ec990862641a39ff6219e9dc29e5e83d9"
   integrity sha512-yAgnwzyyT3kqvxKkM6iky9UiWs8n1EQH5n52rcBrjHM44Ext+Kjagzz1gRQC3maYSgp5UR3FwyUj8gX9Kd7uDQ==
+  dependencies:
+    "@contentful/rich-text-types" "^16.0.3"
+    "@types/json-patch" "0.0.30"
+    axios "^0.27.1"
+    contentful-sdk-core "^7.0.1"
+    fast-copy "^3.0.0"
+    lodash.isplainobject "^4.0.6"
+    type-fest "^3.0.0"
+
+contentful-management@>=7.30.0:
+  version "10.38.4"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.38.4.tgz#9c17be23f2828819ac40aed67f99cb2002c77394"
+  integrity sha512-3lhCzq9MT9g/6fDdvCdaLffeFsxsOMIQp0uCzJOXPvNYB05/eUBIiIGQ3+3HmVMhIti8v1Gh4I7kEmFnffYX9w==
   dependencies:
     "@contentful/rich-text-types" "^16.0.3"
     "@types/json-patch" "0.0.30"
