@@ -18,7 +18,7 @@
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "uuid": "^9.0.0",
+    "uuid": "^9.0.1",
     "json5": "^2.2.3"
   },
   "scripts": {
@@ -54,7 +54,7 @@
     "@types/react": "^18.2.21",
     "@types/uuid": "^9.0.2",
     "@types/react-dom": "^18.2.7",
-    "@types/uuid": "^9.0.1",
+    "@types/uuid": "^9.0.4",
     "typescript": "^5.2.2"
   }
 }
