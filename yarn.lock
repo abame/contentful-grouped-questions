@@ -1079,10 +1079,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@ckeditor/ckeditor5-react@^5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-react/-/ckeditor5-react-5.1.0.tgz#af747cd6e3e7c4fcdbffcd1f750005ca5b7fbc41"
-  integrity sha512-7+okLprneCOD/zXceiONstUjRQtMSnsYiW7C2uODgXpglYDANw9QbAoyA4+M0ZC2Sjxok56YPy46F7uXB+a6mA==
+"@ckeditor/ckeditor5-react@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-react/-/ckeditor5-react-6.1.0.tgz#601db37d0810e52796276c85cce9907d882463e0"
+  integrity sha512-uwJ89pOJnjlMgfluGJhxatt6zV5ZavuV7AaRvJpxzAU7SjoC3sNumohDRmI0KGDGoyCVPMJO9fgE3ijIb3gHlQ==
   dependencies:
     prop-types "^15.7.2"
 
@@ -1104,10 +1104,10 @@
     open "8.4.2"
     ora "5.4.1"
 
-"@contentful/app-sdk@^4.23.0":
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.23.0.tgz#5e8396037f2a628815a0ef1289f756282b2dadbe"
-  integrity sha512-QnCx9SmQvxFoOF0a72Va8SFfPCxyWD+DR4N1QurhivFMgfl91PmC5Q0KgMjtRPTMk6tTf69JBk5HFjzezsNHMw==
+"@contentful/app-sdk@^4.23.1":
+  version "4.23.1"
+  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.23.1.tgz#2265db668071bba1cff09249e0bfcb83a4d7ca3c"
+  integrity sha512-bDl3gz2Hw/7c+3yCkvs81/PO7c4WAv6xXGA6gCg2xWnkjrVvg5zMkGZxASzaqazevtikWg3fm5ktN5qfAT/iQQ==
   dependencies:
     contentful-management ">=7.30.0"
 
@@ -1530,31 +1530,31 @@
   dependencies:
     emotion "^10.0.17"
 
-"@contentful/field-editor-shared@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.4.1.tgz#edfd12ae263eb2b7c66c0859a15fd902de84ebef"
-  integrity sha512-ReLImWGpQS5WVzkIAHhedWqos2Zw/wAXKuVcrs+MY4JyYCFa8Dw3YpV1TXJZ0ScI7GcIPH3CMTJ4Zo9nwp0XUg==
+"@contentful/field-editor-shared@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.4.2.tgz#28fe5715a65982729856256713043ec50a044999"
+  integrity sha512-N0R7dPdR+CoVyxhG6CahcpJTjuZasytQPl0yRlOtOd9SvWEvBqc4/s/r27Dip/s6RNa8YBNlAfZvayxpdClQOw==
   dependencies:
     "@contentful/f36-note" "^4.2.8"
     "@contentful/f36-tokens" "^4.0.0"
     emotion "^10.0.17"
     lodash "^4.17.15"
 
-"@contentful/field-editor-single-line@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.3.3.tgz#07f58edec4e04e74e78b117afbe6c0baacdaf3dd"
-  integrity sha512-J76BKTqY9vpY6K+eKYzTGLV2cegqMLx/h7SU4Ppg5OLNeJ9iH8sWOF1jNRekYOD4RjHm+/Obk372tFU0PMBa6Q==
+"@contentful/field-editor-single-line@^1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.3.4.tgz#414d118e2708aa6a08cd1f8a5630ec1e4c52175e"
+  integrity sha512-AkQOx4oCJ/EmoN1bSxd1TneA78uypYHrYBZI94MMfJj3ABcdlRX/sScarqPHtfVHfSYQxfDniTFSkI2DKz614Q==
   dependencies:
     "@contentful/f36-components" "^4.0.27"
     "@contentful/f36-tokens" "^4.0.0"
-    "@contentful/field-editor-shared" "^1.4.1"
+    "@contentful/field-editor-shared" "^1.4.2"
     emotion "^10.0.17"
     lodash "^4.17.15"
 
-"@contentful/field-editor-test-utils@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.4.1.tgz#8611c9d396f2acc6e0d13d97d33cc76345997de6"
-  integrity sha512-fkYwie3xqgC/PZOnY1L8uwCT920OBbjl5GZ16LuExFxgxSmKBMXTWAEYTa9Epl1E/A/5OWjQ72D4P0NgIBVNuA==
+"@contentful/field-editor-test-utils@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.4.3.tgz#df8e0395d28bdf224d1683403ce01b6036c84ec8"
+  integrity sha512-/401TRBGZxHgZyB68vKCuk3mGvnVwOp0QGCvQzyCNVJyZx3YVyf9byCJMmmOW9oMO3Fuv5E/vCvzdagvfVf/Hw==
   dependencies:
     "@contentful/f36-tokens" "^4.0.0"
     emotion "^10.0.17"
@@ -2734,10 +2734,10 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
 
-"@types/node@*", "@types/node@^20.6.4":
-  version "20.6.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.6.4.tgz#7882cb8b8adc3106c352dac9c02d4d3ebb95cf3e"
-  integrity sha512-nU6d9MPY0NBUMiE/nXd2IIoC4OLvsLpwAjheoAeuzgvDZA1Cb10QYg+91AF6zQiKWRN5i1m07x6sMe0niBznoQ==
+"@types/node@*", "@types/node@^20.8.2":
+  version "20.8.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.2.tgz#d76fb80d87d0d8abfe334fc6d292e83e5524efc4"
+  integrity sha512-Vvycsc9FQdwhxE3y3DzeIxuEJbWGDsnrxvMADzTDF/lcdR9/K+AQIeAghTQsHtotg/q0j3WEOYS/jQgSdWue3w==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -2776,10 +2776,10 @@
   dependencies:
     "@types/react" "^16"
 
-"@types/react-dom@^18.0.0", "@types/react-dom@^18.2.8":
-  version "18.2.8"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.8.tgz#338f1b0a646c9f10e0a97208c1d26b9f473dffd6"
-  integrity sha512-bAIvO5lN/U8sPGvs1Xm61rlRHHaq5rp5N3kp9C+NJ/Q41P8iqjkXSu0+/qu8POsjH9pNWb0OYabFez7taP7omw==
+"@types/react-dom@^18.0.0", "@types/react-dom@^18.2.10":
+  version "18.2.10"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.10.tgz#06247cb600e39b63a0a385f6a5014c44bab296f2"
+  integrity sha512-5VEC5RgXIk1HHdyN1pHlg0cOqnxHzvPGpMMyGAP5qSaDRmyZNDaQ0kkVAkK6NYlDhP6YBID3llaXlmAS/mdgCA==
   dependencies:
     "@types/react" "*"
 
@@ -2790,10 +2790,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.2.23":
-  version "18.2.23"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.23.tgz#60ad6cf4895e93bed858db0e03bcc4ff97d0410e"
-  integrity sha512-qHLW6n1q2+7KyBEYnrZpcsAmU/iiCh9WGCKgXvMxx89+TYdJWRjZohVIo9XTcoLhfX3+/hP0Pbulu3bCZQ9PSA==
+"@types/react@*", "@types/react@^18.2.25":
+  version "18.2.25"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.25.tgz#99fa44154132979e870ff409dc5b6e67f06f0199"
+  integrity sha512-24xqse6+VByVLIr+xWaQ9muX1B4bXJKXBbjszbld/UEDslGLY53+ZucF44HCmLbMPejTzGG9XgR+3m2/Wqu1kw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
