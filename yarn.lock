@@ -1104,10 +1104,10 @@
     open "8.4.2"
     ora "5.4.1"
 
-"@contentful/app-sdk@^4.23.0":
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.23.0.tgz#5e8396037f2a628815a0ef1289f756282b2dadbe"
-  integrity sha512-QnCx9SmQvxFoOF0a72Va8SFfPCxyWD+DR4N1QurhivFMgfl91PmC5Q0KgMjtRPTMk6tTf69JBk5HFjzezsNHMw==
+"@contentful/app-sdk@^4.23.1":
+  version "4.23.1"
+  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.23.1.tgz#2265db668071bba1cff09249e0bfcb83a4d7ca3c"
+  integrity sha512-bDl3gz2Hw/7c+3yCkvs81/PO7c4WAv6xXGA6gCg2xWnkjrVvg5zMkGZxASzaqazevtikWg3fm5ktN5qfAT/iQQ==
   dependencies:
     contentful-management ">=7.30.0"
 
