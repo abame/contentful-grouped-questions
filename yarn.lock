@@ -1617,31 +1617,31 @@
   dependencies:
     emotion "^10.0.17"
 
-"@contentful/field-editor-shared@^1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.4.2.tgz#28fe5715a65982729856256713043ec50a044999"
-  integrity sha512-N0R7dPdR+CoVyxhG6CahcpJTjuZasytQPl0yRlOtOd9SvWEvBqc4/s/r27Dip/s6RNa8YBNlAfZvayxpdClQOw==
+"@contentful/field-editor-shared@^1.4.4":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.4.4.tgz#146a68e445f1fc129b37aa8dbab30a47c0dde4c6"
+  integrity sha512-2UpH2l1BSGAZTErvhbyhpyF6LmH5jxPigt31FbxC8lfzebpQBdDeKpW3VHvMF7XJTSC2s/6cqUnTlVBkSAgX6g==
   dependencies:
     "@contentful/f36-note" "^4.2.8"
     "@contentful/f36-tokens" "^4.0.0"
     emotion "^10.0.17"
     lodash "^4.17.15"
 
-"@contentful/field-editor-single-line@^1.3.4":
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.3.4.tgz#414d118e2708aa6a08cd1f8a5630ec1e4c52175e"
-  integrity sha512-AkQOx4oCJ/EmoN1bSxd1TneA78uypYHrYBZI94MMfJj3ABcdlRX/sScarqPHtfVHfSYQxfDniTFSkI2DKz614Q==
+"@contentful/field-editor-single-line@^1.3.6":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.3.6.tgz#1728332b2e7ddaec65ae879f2cd4199222d7146e"
+  integrity sha512-xcoWQFWMDSN6Y4EhFXj13xaNJ/npRtBTbxUT8HMJAoWPFpAeFJkq4F9+prEIpyZxV0b1xSUJzSqPjEXkMR2cDg==
   dependencies:
     "@contentful/f36-components" "^4.0.27"
     "@contentful/f36-tokens" "^4.0.0"
-    "@contentful/field-editor-shared" "^1.4.2"
+    "@contentful/field-editor-shared" "^1.4.4"
     emotion "^10.0.17"
     lodash "^4.17.15"
 
-"@contentful/field-editor-test-utils@^1.4.3":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.4.3.tgz#df8e0395d28bdf224d1683403ce01b6036c84ec8"
-  integrity sha512-/401TRBGZxHgZyB68vKCuk3mGvnVwOp0QGCvQzyCNVJyZx3YVyf9byCJMmmOW9oMO3Fuv5E/vCvzdagvfVf/Hw==
+"@contentful/field-editor-test-utils@^1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.4.5.tgz#2143673816fb58cf28530996af822921c4c59d72"
+  integrity sha512-QC9nWtoVdGEKTtUKNU4lQ9PVA+7q+YTj0eALmiMb7RPGpOG+wjmgXlb92SqKJ6Godf4B76kpIX5zzX053OHX3Q==
   dependencies:
     "@contentful/f36-tokens" "^4.0.0"
     emotion "^10.0.17"
@@ -2647,10 +2647,10 @@
     lz-string "^1.4.4"
     pretty-format "^27.0.2"
 
-"@testing-library/jest-dom@^6.2.0":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-6.2.0.tgz#b572bd5cd6b29314487bac7ba393188e4987b4f7"
-  integrity sha512-+BVQlJ9cmEn5RDMUS8c2+TU6giLvzaHZ8sU/x0Jj7fk+6/46wPdwlgOPcpxS17CjcanBi/3VmGMqVr2rmbUmNw==
+"@testing-library/jest-dom@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-6.3.0.tgz#e8d308e0c0e91d882340cbbfdea0e4daa7987d36"
+  integrity sha512-hJVIrkFizEQxoWsGBlycTcQhrpoCH4DhXfrnHFFXgkx3Xdm15zycsq5Ep+vpw4W8S0NJa8cxDHcuJib+1tEbhg==
   dependencies:
     "@adobe/css-tools" "^4.3.2"
     "@babel/runtime" "^7.9.2"
@@ -2869,10 +2869,10 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
 
-"@types/node@*", "@types/node@^20.11.5":
-  version "20.11.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.5.tgz#be10c622ca7fcaa3cf226cf80166abc31389d86e"
-  integrity sha512-g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==
+"@types/node@*", "@types/node@^20.11.8":
+  version "20.11.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.8.tgz#bdb6de1048613c3c6ab6c341c37e8fd1a7860308"
+  integrity sha512-i7omyekpPTNdv4Jb/Rgqg0RU8YqLcNsI12quKSDkRXNfx7Wxdm6HhK1awT3xTgEkgxPn3bvnSpiEAc7a7Lpyow==
   dependencies:
     undici-types "~5.26.4"
 
@@ -3008,10 +3008,10 @@
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
   integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
 
-"@types/uuid@^9.0.7":
-  version "9.0.7"
-  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-9.0.7.tgz#b14cebc75455eeeb160d5fe23c2fcc0c64f724d8"
-  integrity sha512-WUtIVRUZ9i5dYXefDEAI7sh9/O7jGvHg7Df/5O/gtH3Yabe5odI3UWopVR1qbPXQtvOxWu3mM4XxlYeZtMWF4g==
+"@types/uuid@^9.0.8":
+  version "9.0.8"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-9.0.8.tgz#7545ba4fc3c003d6c756f651f3bf163d8f0f29ba"
+  integrity sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==
 
 "@types/ws@^8.5.1":
   version "8.5.3"
