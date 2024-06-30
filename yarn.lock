@@ -1166,24 +1166,24 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@ckeditor/ckeditor5-react@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-react/-/ckeditor5-react-7.0.0.tgz#0ac7454cf7cf03c30de6119b07853c40ad8973d2"
-  integrity sha512-9JWs5145ltuiioAuvF3xdoV660DCx1FPtTC6b1e1yXxcUgBAMSM8cmNKhzt+9vUS4RCdXVQsUFSS17cgjBX23A==
+"@ckeditor/ckeditor5-react@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-react/-/ckeditor5-react-8.0.0.tgz#bc0ea7d9c22f85fed2a763c7784d7a562327cc24"
+  integrity sha512-CyepIX0E7Gsf+imgyV/jtoIDbyqXZ8PRSAACBBVxBOHB+KBYDE/vT6HOU+M5ntAimvt887r1qaTowRR6F1QHlw==
   dependencies:
     prop-types "^15.7.2"
 
-"@contentful/app-scripts@^1.24.0":
-  version "1.24.0"
-  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.24.0.tgz#51e86453ca114fc60052d05b68bfdb681d0275b4"
-  integrity sha512-LRQWS3OppcRIda+i0pp7/t1klzgXudVqBBZ8jMjx29pae8JfxN/Da6gzA+MUZVppEhTEOn3Ns5+cGf92puxdqg==
+"@contentful/app-scripts@^1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.25.0.tgz#6e33244629924d7bb78588129481f11829aaca5a"
+  integrity sha512-8Z7fukXK4YGO03CvonnkJ72Ge5LKJAunmo41BM86avNo/NWde+akdxgkMrE+jv1ptvSVIcAcbOTIaHpiakh4NA==
   dependencies:
     "@segment/analytics-node" "^2.0.0"
     adm-zip "0.5.14"
     bottleneck "2.19.5"
     chalk "4.1.2"
     commander "12.1.0"
-    contentful-management "11.27.1"
+    contentful-management "11.27.4"
     dotenv "16.4.5"
     ignore "5.3.1"
     inquirer "8.2.6"
@@ -1617,10 +1617,10 @@
   dependencies:
     emotion "^10.0.17"
 
-"@contentful/field-editor-shared@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.5.4.tgz#7f95f6cbfa2c8c5114a09628e3ac57b363246e6e"
-  integrity sha512-WqAD+K5Aljgth992yM01Gx4ITbeN2HdthAoT+50vAsYMsSeszxbJUNFSouVT5BP//uPeWecPkVGuTiXu1XlOEw==
+"@contentful/field-editor-shared@^1.5.5":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.5.5.tgz#cee4e3f5222fca850208ed47e473e766d3515a98"
+  integrity sha512-ImOYm9772XyVWkdmZkXDGNfOz5Rn5t1WmkyS2F1t6qKbyvOjm0VDCUanyOG8PEg0Ykv1gxXX/0+r1eVX7sY1ug==
   dependencies:
     "@contentful/f36-note" "^4.2.8"
     "@contentful/f36-tokens" "^4.0.0"
@@ -1628,14 +1628,14 @@
     fast-deep-equal "^3.1.3"
     lodash "^4.17.15"
 
-"@contentful/field-editor-single-line@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.4.1.tgz#f484a1b0de7522ecefbbb07e5eb1d24d2bf0b128"
-  integrity sha512-fZnAhOu6PnTuVsIWECFAtiYguo2Vf07lL+FFIyzRFljifKDcoJ72M8S+4mv28VlPl5Xri51r0YFrh5ngFNJX/A==
+"@contentful/field-editor-single-line@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.4.2.tgz#a061a46c3a47f53139b9afdfc3d256465911e581"
+  integrity sha512-+ED7ygUPXcyhgaM33Ssb0VQgvqmeE2+mD+cpa6yjnSFa8wo9igNNxz8rz0CnP7IG4rGsA/6kobJmjQWyzOj+Uw==
   dependencies:
     "@contentful/f36-components" "^4.0.27"
     "@contentful/f36-tokens" "^4.0.0"
-    "@contentful/field-editor-shared" "^1.5.4"
+    "@contentful/field-editor-shared" "^1.5.5"
     emotion "^10.0.17"
     lodash "^4.17.15"
 
@@ -2853,10 +2853,10 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
 
-"@types/node@*", "@types/node@^20.14.8":
-  version "20.14.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.8.tgz#45c26a2a5de26c3534a9504530ddb3b27ce031ac"
-  integrity sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==
+"@types/node@*", "@types/node@^20.14.9":
+  version "20.14.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.9.tgz#12e8e765ab27f8c421a1820c99f5f313a933b420"
+  integrity sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==
   dependencies:
     undici-types "~5.26.4"
 
@@ -4239,10 +4239,10 @@ content-type@~1.0.5:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.5.tgz#8b773162656d1d1086784c8f23a54ce6d73d7918"
   integrity sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==
 
-contentful-management@11.27.1, contentful-management@>=7.30.0:
-  version "11.27.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.27.1.tgz#56a6922b66495532454bb23f66276fc70d4786d5"
-  integrity sha512-CxH8xGju051/FMfdJrJTX9uVEB+E+FsvgmXcoiz1SJym+nvSZDypMaAFWNV6wzx6zt7ywCCDA6yzC6Hk/yc0fw==
+contentful-management@11.27.4, contentful-management@>=7.30.0:
+  version "11.27.4"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.27.4.tgz#2de84f089a022ccb869142e5fa1e4c2c355f5fdd"
+  integrity sha512-YE9RvdH5IydBXdbOmig9Qz1MuLT0AsGbkF8q+koshxASv+I2PGjxzxVRsI6cxW2iAtItcSS2jkaczEs3Gioj9Q==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
