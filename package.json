@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ckeditor/ckeditor5-react": "^9.0.0",
-    "@contentful/app-scripts": "^1.25.0",
-    "@contentful/app-sdk": "^4.29.0",
-    "@contentful/field-editor-single-line": "^1.4.3",
-    "@contentful/field-editor-test-utils": "^1.5.0",
+    "@ckeditor/ckeditor5-react": "^9.1.0",
+    "@contentful/app-scripts": "^1.27.0",
+    "@contentful/app-sdk": "^4.29.1",
+    "@contentful/field-editor-single-line": "^1.4.4",
+    "@contentful/field-editor-test-utils": "^1.5.1",
     "@contentful/forma-36-fcss": "^0.3.5",
     "@contentful/forma-36-react-components": "^3.100.7",
     "@contentful/forma-36-tokens": "^0.11.2",
@@ -46,15 +46,15 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.4.8",
-    "@testing-library/react": "^16.0.0",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
-    "@types/jest": "^29.5.12",
-    "@types/node": "^22.2.0",
-    "@types/react": "^18.3.3",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.7",
     "@types/uuid": "^9.0.2",
     "@types/react-dom": "^18.3.0",
     "@types/uuid": "^10.0.0",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.2"
   }
 }
