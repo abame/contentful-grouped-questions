@@ -1179,10 +1179,10 @@
     "@ckeditor/ckeditor5-integrations-common" "^2.1.0"
     prop-types "^15.7.2"
 
-"@contentful/app-scripts@^1.29.0":
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.29.0.tgz#de6c1abe7c008b2845464572dcb83c40d1b4555f"
-  integrity sha512-4TRZeUkKh/0+o5V2i8nwTDITtEE6AjVJfpfQruMBko8hoknC2CUAI6NZTYmBLPNMnOrYZErrSNWb6JXJZybODA==
+"@contentful/app-scripts@^1.30.0":
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/@contentful/app-scripts/-/app-scripts-1.30.0.tgz#f16af6393c2c4d1dbcc7376be97141e524c8a7fa"
+  integrity sha512-7vBfIWEPlgrsSJG4xliYscPrDjbQrJ8xUuXUwy7L3J9wQYyLE4Bjd72AmHZ0icItUlZuAcZ4Aca46tvNnpE13A==
   dependencies:
     "@segment/analytics-node" "^2.0.0"
     adm-zip "0.5.16"
@@ -1197,10 +1197,10 @@
     open "8.4.2"
     ora "5.4.1"
 
-"@contentful/app-sdk@^4.29.1":
-  version "4.29.1"
-  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.29.1.tgz#233b38f613ea4a2024d8f262600f98fdb42cda35"
-  integrity sha512-bgBPSBVL7plZ0fGGC9+aIhPB2eTzMwcQE+ePvd//ywZJPdYco0pEuXS9iFEnhJjgvomDeOmrV3YLXmCtA5woqA==
+"@contentful/app-sdk@^4.29.2":
+  version "4.29.2"
+  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.29.2.tgz#d1533d5a0bd3d9353741b94d9ffade74ab577152"
+  integrity sha512-J1uwGfluwukmTo6tJLQ6SacKbc1QrjkjHwTZoiUu3E7tF7YKz4mLbNxbKnzbnuCENW0T7FlI5fsEUxUjfJoGEA==
   dependencies:
     contentful-management ">=7.30.0"
 
@@ -2746,10 +2746,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@testing-library/jest-dom@^6.6.2":
-  version "6.6.2"
-  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-6.6.2.tgz#8186aa9a07263adef9cc5a59a4772db8c31f4a5b"
-  integrity sha512-P6GJD4yqc9jZLbe98j/EkyQDTPgqftohZF5FBkHY5BUERZmcf4HeO2k0XaefEg329ux2p21i1A1DmyQ1kKw2Jw==
+"@testing-library/jest-dom@^6.6.3":
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-6.6.3.tgz#26ba906cf928c0f8172e182c6fe214eb4f9f2bd2"
+  integrity sha512-IteBhl4XqYNkM54f4ejhLRJiZNqcSCoXUOG2CPK7qbD322KjQozM4kHQOfkG2oln9b9HTYqs+Sae8vBATubxxA==
   dependencies:
     "@adobe/css-tools" "^4.4.0"
     aria-query "^5.0.0"
@@ -2947,10 +2947,10 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
 
-"@types/node@*", "@types/node@^22.8.1":
-  version "22.8.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.8.1.tgz#b39d4b98165e2ae792ce213f610c7c6108ccfa16"
-  integrity sha512-k6Gi8Yyo8EtrNtkHXutUu2corfDf9su95VYVP10aGYMMROM6SAItZi0w1XszA6RtWTHSVp5OeFof37w0IEqCQg==
+"@types/node@*", "@types/node@^22.8.7":
+  version "22.8.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.8.7.tgz#04ab7a073d95b4a6ee899f235d43f3c320a976f4"
+  integrity sha512-LidcG+2UeYIWcMuMUpBKOnryBWG/rnmOHQR5apjn8myTQcx3rinFRn7DcIFhMnS0PPFSC6OafdIKEad0lj6U0Q==
   dependencies:
     undici-types "~6.19.8"
 
@@ -10360,10 +10360,10 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
 
-uuid@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-10.0.0.tgz#5a95aa454e6e002725c79055fd42aaba30ca6294"
-  integrity sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==
+uuid@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-11.0.2.tgz#a8d68ba7347d051e7ea716cc8dcbbab634d66875"
+  integrity sha512-14FfcOJmqdjbBPdDjFQyk/SdT4NySW4eM0zcG+HqbHP5jzuH56xO3J1DGhgs/cEMCfwYi3HQI1gnTO62iaG+tQ==
 
 uuid@^8.3.2:
   version "8.3.2"
