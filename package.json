@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "@ckeditor/ckeditor5-react": "^11.0.0",
-    "@contentful/app-scripts": "^2.5.5",
+    "@contentful/app-scripts": "^2.5.6",
     "@contentful/app-sdk": "^4.45.0",
-    "@contentful/field-editor-single-line": "^1.8.14",
+    "@contentful/field-editor-single-line": "^1.8.18",
     "@contentful/field-editor-test-utils": "^1.6.2",
     "@contentful/forma-36-fcss": "^0.3.5",
     "@contentful/forma-36-react-components": "^3.100.7",
@@ -50,10 +50,10 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.6.2",
-    "@types/react": "^19.2.0",
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.2.2",
     "@types/uuid": "^9.0.2",
-    "@types/react-dom": "^19.2.0",
+    "@types/react-dom": "^19.2.2",
     "@types/uuid": "^11.0.0",
     "typescript": "^5.9.3"
   }
